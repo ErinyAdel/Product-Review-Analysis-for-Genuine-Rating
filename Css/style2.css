@@ -1,0 +1,77 @@
+body {
+  position: relative;
+  height: 100%;
+  background: rgba(0,0,0,.3);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color:#777;
+}
+
+.submit_input {
+    border-radius: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to left,#8e54e9 , #4776e6);
+    color: white;
+    width: 150px;
+    margin-top: 25px; 
+    align-content: center
+}
+
+.form_div textarea {
+  resize: none;
+  margin-top: 15px;
+}
+
+.product-labels label {    
+    display: block;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #000;
+    height: 20px;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    text-align: right;
+    clear: both;
+    float: left
+}
+
+.product-inputs input {        
+    height: 25px;
+    width: 200px;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+
+select {
+    height: 25px;
+    width: 200px;
+    margin-top: 15px;
+}
+
+.form_div {
+  width: fit-content;
+  height: 100%;
+  margin: 20px auto;
+  margin-top: 40px;
+  border-radius: 15px 50px 30px 5px;
+}
+
+.form_div form {
+    color: black;
+    box-shadow: 0 4px 8px 0 silver;
+    transition: 0.3s;
+    
+    background-image: linear-gradient(to right, #00386c, #8e54e9);
+    padding: 40px;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

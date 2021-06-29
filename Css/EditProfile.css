@@ -1,0 +1,81 @@
+*{
+	margin:0px ;
+	padding:0px ; 
+	font-family: italic ;
+}
+.header{
+	width:100%; 
+	height: 80px ;
+	background-color: #111 ;
+}
+.Logo{
+	margin-left: 34% ;
+}
+.Logo img{
+	margin-top: 10px ;
+	margin-left: 10px ;
+	border-radius: 50px ;
+	float: left;
+}
+.Logo h1{
+	color: white ;
+	float: left;
+	margin-top: 20px ;
+	margin-left: 20px ;	
+}
+.form{
+	background-color: #DDD ;
+	height: 350px  ;
+	text-align: center;
+	padding-top: 70px ;	 
+}
+.form .label5{
+	margin-right: -140px ;
+	color: red ;
+}
+.label1,.label2,.label3,.label4,.label5{
+	font-size: 20px ;
+	color: #777;
+}
+.form .label1{
+	padding-right: 21px ; 
+}
+.form .label2{
+	padding-right: 28px ;
+}
+.form .label3{
+	padding-right: 55px ;
+}
+.form .text{
+	width: 300px ;
+	height:30px ;
+	margin-bottom: 30px ;
+}
+.form .label4{
+	margin-left: 20px;
+}
+.form .but1{
+	width: 150px ;
+	height: 35px ;
+	margin-top: 20px ;
+	font-size: 15px ;
+	color: #777 ;
+}
+.footer
+{
+    background-color: #111 ;
+    text-align: center ;
+    width: 100% ;
+    height: 125px ;
+}
+.footer h1
+{
+	padding-top: 15px ;
+    color :white ;
+}
+.footer img
+{
+    width:3% ;
+    margin-top: 10px ;
+    margin-right: 20px ;  
+}

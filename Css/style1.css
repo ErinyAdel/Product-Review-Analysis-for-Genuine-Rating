@@ -1,0 +1,386 @@
+/***************************  Body of index Page  **************************/
+#body-index {
+    background-image: url("../images/bg.jpg");
+    background: rgba(0,0,0,.3);
+    background-size: cover;
+    overflow-y: scroll;
+}
+/***************************  Body of addCategory  & deleteCategory Pages  **************************/
+#body-add-cat , #body-delete-cat {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+* {box-sizing: border-box;}
+
+*:hover, *:focus {outline:0}
+
+html {height: 100%;}
+
+body {
+  position: relative;
+  height: 100%;
+  background: rgba(0,0,0,.3);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color:#777;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/***************************  Menue Bar & Logo **************************/
+#logo-img {
+    width: 170px;
+    height: 90px;
+    float: left;
+}
+
+#website-name {
+    font-size: 15px;
+    float: left;
+}
+
+.menu-bar {
+    background-color: #00386c;
+    text-align: end;
+    height: 80px;
+}
+
+.menu-bar ul li:hover {
+    padding: 15px;
+    border-radius: 0px;
+}
+
+.menu-bar ul{
+    list-style: none;
+}
+
+#right-nav li{
+    float: right;
+    display: inline-block;
+    margin: 25px;
+    padding-top: 5px;
+}
+
+#website-name {
+    float: left;
+    margin: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.menu-bar .fa {
+    margin-right: 5px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    float: left;
+    display: block;
+    position: absolute;
+    background: #00386c;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    width: 150px;
+    height: 180px;
+    background-color: #CCCCFF;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 100px;
+    border-bottom: 1.5px solid #00386c;
+    text-align: center;
+}
+
+.menu-bar ul li .sub-menu-1 ul li a{
+    color: #00386c;
+    font-family: serif;
+    font-style: oblique;
+}
+
+/*.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}*/
+/***************************  General Styles  **************************/
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/*
+a:hover {
+    background: #00366B;
+}
+*/
+button {
+    width: 250px;
+    background-color: #00386c;
+    border: 3px solid #000;  
+    color: white;
+    padding: 15px 32px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    
+    border-radius: 10px;
+    padding: 10px;
+}
+/****************** index Page ***************************/
+.admin-btns {
+    width: 250px;
+    background-color: #000000;
+    background-image: linear-gradient(to left, #00386c, #000000);
+    border: 3px solid #000;  
+    color: white;
+    padding: 15px 32px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.admin-btns2 {
+    width: 250px;
+    background-color: #fff;
+        background-image: linear-gradient(to left, #00386c, #fff);
+
+    border: 3px solid #00386c;  
+    color: #00386c;
+    padding: 15px 32px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-style: inherit;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 #00386c;
+}
+
+.admin-btns:hover {
+    background-color: #CCCCFF;
+    color: #CCCCFF;
+}
+.admin-btns2:hover {
+    background-color: #CCCCFF;
+    color: #CCCCFF;
+}
+
+.prod-div , .categ-div {
+    margin-top: 80px;
+    float: left;
+    display: inline-block
+}
+/*First Apply*/
+/*
+.categ-div {
+    float: right;
+}
+*/
+h3 , .categ-div h3 {
+    font-size: 40px;
+    padding: 20px;
+    color: #fff;
+}
+/********************************** addCategory & deleteCategory Pages **************************************/
+.add-cat-small-div h3 , .add-cat-small-div input , .delete-cat-small-div h3 , .tech-options{
+    display: inline-block;
+}
+
+.add-cat-small-div h3 , .delete-cat-small-div h3{
+    color: #00386c;
+    font-style: oblique;
+}
+
+.add-cat-small-div input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 15px;
+}
+
+.add-cat-big-div #addcateg-btn  , .delete-cat-big-div #removecateg-btn{
+    margin-left: 17%;
+    margin-top: 5%;
+    border: 3px solid #cccccc;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 20px;
+    background-image: linear-gradient(to left, #000000, #00386c);
+    color: white;
+    width: 220px;
+    height:50px
+}
+
+.delete-cat-big-div #removecateg-btn:hover , .add-cat-big-div #addcateg-btn:hover {
+    color: #00386c;
+    background: rgba(0,0,0,.1);
+    border: 2px solid #000  ;
+}
+
+.add-cat-big-div , .delete-cat-big-div{
+    align-items: center;
+    margin-left:30%;
+    margin-top: 15%;
+}
+
+.tech-options {
+    width: 180px;
+    height: 40px;
+    color: #00386c;
+    padding: 8px 16px;
+    border: 1.5px solid #00386c;
+    cursor: pointer;
+    /*background-color: DodgerBlue;*/
+}
+
+.tech-options option{
+    border-radius:45px;
+    padding: 15px;
+    background-color: #ccccff;
+    padding: 15px;
+    text-align: center;
+}
+/***************************** Feedback Page *************************************/
+.fdback-div {
+    width: 800px;
+    height: 500px;
+    background-color: #ffffff;
+    border: 3px solid #00386c;
+    margin: 80px;
+    overflow-y: scroll;
+}
+
+table{
+    width: 100%;
+    height: 500px;
+}
+
+th , td{
+    border-bottom: 1px solid #00386c;
+    height: 50px;
+}
+
+table td {
+    padding-left: 10px;
+    text-align: left;
+}
+
+table tr {
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}
+
+table tr:hover {
+    background-color: #00386c;
+}
+
+.fdback-div , #btn-removefedbk {
+    display: inline-block
+}
+
+#name , #fb {
+    margin: 50px;
+}
+
+#remove-att {
+    text-align: center;
+    background-color: #00386c;
+    font-style: initial;
+}
+
+select, input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+.quiz-window {
+  position: absolute;
+  left:0; right:0;
+  top: 50px;
+  margin: auto;
+  margin-bottom: 40px;
+  width: 600px;
+  border-radius: 4px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.quiz-window-header {
+  padding: 20px 15px;
+  text-align:center;
+  position: relative;
+}
+
+.quiz-window-title2 {
+  font-size: 26px;
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+.quiz-window-title {
+    font-size: 26px;
+}
+
+.quiz-window-close {
+  position: absolute;
+  top:20px;
+  right:20px;
+  padding:0;
+  background:none;
+  border:0;
+  width: 30px;
+  height: 30px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 24px;
+  color: #777;
+  cursor:pointer;
+}
+
+.quiz-window-body {
+  background-color: #f9f9f9;
+}
+
+.guiz-awards-row {
+  margin:0;
+  padding: 10px 40px;
+  list-style: none;
+}
+/*
+.guiz-awards-row:after {
+  content: '';
+  display: table;
+  clear:both;
+}*/
+
+.guiz-awards-row-even {
+  background-color: #fff;
+}
+
+.guiz-awards-row li {
+  display:inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+.guiz-awards-header {
+  text-align: center;
+  padding: 5px 40px;
+}
+
+/**************************      ***********************************/
